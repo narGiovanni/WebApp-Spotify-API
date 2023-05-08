@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <title>Spotify</title>
+    </head>
+    <body>
+        <div class="left-menu">
+            <div class="containerMenu">
+                <ul>
+                    <li class="home"><i id="faviHome" class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i>Home</li>
+                    <li class="search"><i id="faviSearch" class="fa-solid fa-magnifying-glass fa-xl" style="color: #4a4a4a;"></i>Cerca</li>
+                </ul>
+            </div>
+            <div class="containerLibreria">
+                <div class="containerArtista"></div>
+                <div class="containerDiscografia"></div>
+            </div>
+        </div>
+        <div class="right-menu">
+            <div class="info">
+                <img class="logoSpoti" src="logo.png">
+                <h1 class="titleInfo">Benvenuto nella mia Web App di Spotify!</h1>
+                <p class="infoText">Sono felice di averti qui e di condividere con te l'entusiasmante mondo della musica di Spotify.<br>La Web App utilizza le potenti API di Spotify per offrirti un'esperienza personalizzata e coinvolgente.</p>
+            </div>
+            <form id="formSubmit" action="#">
+                <div class="containerRicerca">
+                    <i id="ricercaIcon" class="fa-solid fa-magnifying-glass fa" style="color: #a5a5a5;"></i>
+                    <input type="text" class="textarea" placeholder="Cosa vuoi ascoltare?">
+                    <i id="btnRemove" class="fa-solid fa-xmark fa-lg" style="color: #ffffff;"></i>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
